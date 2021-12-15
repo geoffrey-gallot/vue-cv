@@ -1,21 +1,17 @@
 <template>
-  <div class="home">
-    <h1>home page</h1>
+  <div class="project">
+    <h1>This my project page</h1>
   </div>
 </template>
 
 <script>
-
 export default {
-  name: 'Home',
-  components: {
-    
-  }
+  name: 'Project',
 }
 </script>
 
 <style scoped>
-.home{
+.project{
   margin-top: 200px;
 }
 </style>
