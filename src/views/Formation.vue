@@ -1,21 +1,17 @@
 <template>
-  <div class="home">
-    <h1>home page</h1>
+  <div class="formation">
+    <h1>This is an skills page</h1>
   </div>
 </template>
 
 <script>
-
 export default {
-  name: 'Home',
-  components: {
-    
-  }
+  name: 'Formation',
 }
 </script>
 
 <style scoped>
-.home{
+.formation{
   margin-top: 200px;
 }
 </style>

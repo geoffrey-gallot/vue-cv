@@ -1,7 +1,7 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top " id="navbar">
-      <a class="navbar-brand" tag="router-link" :to="{ path: '/' }">Accueil</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <b-link class="navbar-brand" :to="{ path: '/' }">Accueil</b-link>
       <button
         class="navbar-toggler"
         type="button"
@@ -16,16 +16,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">A propos</a>
+            <b-link class="nav-link" :to="{ path: '/about' }">A propos</b-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Ma formation</a>
+            <b-link class="nav-link" :to="{ path: '/formation'}">Ma formation</b-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Mes projets</a>
+            <b-link class="nav-link" :to="{ path: '/project'}">Mes projets</b-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <b-link class="nav-link" :to="{ path: '/contact'}">Contact</b-link>
           </li>
         </ul>
       </div>
@@ -40,7 +40,4 @@ export default {
 </script>
 
 <style scoped>
-#navbar{
-    text-align: center;
-}
 </style>
