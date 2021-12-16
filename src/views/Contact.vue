@@ -23,5 +23,6 @@ export default {
   top: 100px;
   display: flex;
   flex-direction: column;
+  margin-left: 100px;
 }
 </style>
