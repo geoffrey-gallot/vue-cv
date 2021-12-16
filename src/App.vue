@@ -13,14 +13,8 @@ export default {
     NavBar,
   }
 }
+
 </script>
 
 <style lang="scss">
-#app {
-
-}
-
-#nav {
-
-}
 </style>
