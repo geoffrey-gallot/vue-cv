@@ -1,17 +1,27 @@
 <template>
   <div class="contact">
-    <h1>This my contact page</h1>
+    <section class="coord">
+            <Coord/>
+    </section>
+    <section class="formContact"></section>
   </div>
 </template>
 
 <script>
+import Coord from '../components/Coord'
 export default {
   name: 'Contact',
+  components: {
+    Coord,
+  }
 }
 </script>
 
 <style scoped>
 .contact{
-  margin-top: 200px;
+  position: fixed;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
 }
 </style>

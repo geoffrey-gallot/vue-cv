@@ -34,10 +34,11 @@ export default {
   margin: 10px;
 }
 .project{
+  position: fixed;
   margin-top: 100px;
+  left: 30%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
 }
 .projectItem{
   margin: 20px;

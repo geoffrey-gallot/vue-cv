@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     <div class="main-content">
-      <img src="../../public/img/resourses/pexels-lisa-1048283.jpg" alt="" />
       <div class="title">Geoffrey Gallot</div>
       <div class="content">Developpeur Fullstack web et web mobile</div>
       <div class="socialNetwork">
@@ -24,6 +23,15 @@ export default {
 </script>
 
 <style scoped>
+.home{
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../public/img/resourses/pexels-lisa-1048283.jpg");
+  background-size: cover;
+  z-index: -10;
+}
 .home img {
   position: fixed;
   top: 0;

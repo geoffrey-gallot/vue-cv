@@ -49,7 +49,8 @@ export default {
 
 <style scoped>
 .about {
-  height: 93vh;
+  position: fixed;
+  height: 100vh;
   width: 100%;
   background-color: #2b2b2b;
   display: flex;

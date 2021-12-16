@@ -107,6 +107,7 @@ export default {
 
 <style scoped>
 .formation {
+  position: absolute;
   display: flex;
   flex-direction: column;
 }
