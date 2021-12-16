@@ -34,7 +34,7 @@ export default {
   margin: 10px;
 }
 .project{
-  position: fixed;
+  position: absolute;
   margin-top: 100px;
   left: 30%;
   display: flex;

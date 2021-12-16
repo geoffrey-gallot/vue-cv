@@ -62,16 +62,11 @@ export default {
   height: 100vh;
   width: 100%;
   background-image: url("../../public/img/resourses/pexels-lisa-1048283.jpg");
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment:fixed;
+  background-clip: border-box;
   z-index: -10;
-}
-.home img {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100%;
-  z-index: -100;
 }
 .main-content {
   display: flex;
@@ -79,6 +74,7 @@ export default {
   justify-content: center;
   align-items: center;
   margin-top: 20%;
+  margin-bottom: auto;
 }
 .title {
   font-size: 3.5rem;

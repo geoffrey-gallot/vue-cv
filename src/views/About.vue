@@ -54,7 +54,7 @@ export default {
 
 <style scoped>
 .about {
-  position: fixed;
+  position: absolute;
   height: 100vh;
   width: 100%;
   background-color: #2b2b2b;
