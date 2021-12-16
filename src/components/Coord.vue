@@ -20,8 +20,6 @@ export default {
 .contact {
   display: flex;
   flex-direction: column;
-  margin-right: 150px;
-  margin-left: 200px;
 }
 .contact ul {
   list-style: none;

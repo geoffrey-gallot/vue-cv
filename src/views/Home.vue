@@ -65,6 +65,10 @@ export default {
   margin-left: 1rem;
   margin-right: 1rem;
 }
+.socialNetwork-list li i:hover{
+  transform: scale(2,2);
+  transition: 0.5s ease-in-out;
+}
 .fa-linkedin{
   color: #007BB5;
 }

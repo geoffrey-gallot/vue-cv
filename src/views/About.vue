@@ -19,13 +19,14 @@
         </article>
         <article class="annexe">
           <div class="contact">
-            <h4>Contact</h4>
+            <!-- <h4>Contact</h4>
             <ul>
               <li>Geoffrey Gallot</li>
               <li>19 rue des colporteurs</li>
               <li>Villebreton</li>
               <li>16110 la Rochette</li>
-            </ul>
+            </ul> -->
+            <Coord/>
           </div>
           <div class="cvdl">
             <input
@@ -42,8 +43,12 @@
 </template>
 
 <script>
+import Coord from '../components/Coord';
 export default {
-  name: "About"
+  name: "About",
+  components: {
+    Coord
+  }
 };
 </script>
 
@@ -82,12 +87,7 @@ export default {
   margin-right: 300px;
   margin-bottom: 50px;
 }
-.contact {
-  margin-right: 150px;
-}
-.contact ul {
-  list-style: none;
-}
 .cvdl {
+  margin-left: 200px;
 }
 </style>
