@@ -19,11 +19,11 @@ export default {
 
 <style scoped>
 .contact{
-  position: fixed;
+  position: absolute;
   top: 100px;
   display: flex;
   flex-direction: column;
   margin-left: 100px;
-  
+
 }
 </style>
