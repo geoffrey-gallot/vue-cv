@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-cv/css/about.8a4d1fd5.css"
   },
   {
-    "revision": "5788e9d5b26ee8e9970a",
+    "revision": "21bef1c55e864dc7ff31",
     "url": "/vue-cv/css/app.9d912a33.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-cv/css/chunk-vendors.8bda0bd5.css"
   },
   {
-    "revision": "2f9883e5098c98056f61",
-    "url": "/vue-cv/css/contact.bb69c81c.css"
+    "revision": "5bf6206a8249abf07af6",
+    "url": "/vue-cv/css/contact.d16f439f.css"
   },
   {
     "revision": "d641866ae40755f92970",
@@ -64,7 +64,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-cv/img/resourses/photoSitearduino.png"
   },
   {
-    "revision": "bfe864aaf34f593d219acb3132539cf6",
+    "revision": "38f166cb2548d112a76de2168a8bdba2",
     "url": "/vue-cv/index.html"
   },
   {
@@ -72,16 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-cv/js/about.7e42bdef.js"
   },
   {
-    "revision": "5788e9d5b26ee8e9970a",
-    "url": "/vue-cv/js/app.e815e793.js"
+    "revision": "21bef1c55e864dc7ff31",
+    "url": "/vue-cv/js/app.d04aef19.js"
   },
   {
     "revision": "e790f1581d655d58e28c",
     "url": "/vue-cv/js/chunk-vendors.e06867aa.js"
   },
   {
-    "revision": "2f9883e5098c98056f61",
-    "url": "/vue-cv/js/contact.091c7395.js"
+    "revision": "5bf6206a8249abf07af6",
+    "url": "/vue-cv/js/contact.2fa8c509.js"
   },
   {
     "revision": "d641866ae40755f92970",
