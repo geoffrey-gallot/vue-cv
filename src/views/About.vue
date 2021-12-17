@@ -26,15 +26,16 @@
               <li>Villebreton</li>
               <li>16110 la Rochette</li>
             </ul> -->
-            <Coord/>
+            <Coord />
           </div>
           <div class="cvdl">
-            <input
-              type="button"
+            <a
               class="btn btn-secondary"
-              download="../../public/img/resourses/CVGallotGeoffrey.pdf"
-              value="Télécharger mon Cv"
-            />
+              href="../../public/img/resourses/CVGallotGeoffrey.pdf"
+              target="_blank"
+              download
+              >Télécharger mon Cv
+              </a>
           </div>
         </article>
       </section>
@@ -43,7 +44,7 @@
 </template>
 
 <script>
-import Coord from '../components/Coord';
+import Coord from "../components/Coord";
 export default {
   name: "About",
   components: {

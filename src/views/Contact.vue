@@ -20,10 +20,14 @@ export default {
 <style scoped>
 .contact{
   position: absolute;
-  top: 100px;
   display: flex;
-  flex-direction: column;
-  margin-left: 100px;
-
+  flex-direction: row;
+  width: 100%;
+  
+}
+.coord{
+  margin-top: 10%;
+  margin-left: 5%;
+  width: 150px;
 }
 </style>
