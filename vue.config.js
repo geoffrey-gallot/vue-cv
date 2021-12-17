@@ -1,4 +1,10 @@
-const publicPath = process.env.NODE_ENV === 'production' ? '/vue-cv/' : '/'
+// const publicPath = process.env.NODE_ENV === 'production' ? '/vue-cv/' : '/'
+// module.exports = {
+//  publicPath: publicPath,
+// }
+
 module.exports = {
- publicPath: publicPath,
-}
+    publicPath: process.env.NODE_ENV === 'production'
+      ? '/vue-cv/'
+      : '/'
+  }
