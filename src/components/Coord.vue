@@ -1,6 +1,6 @@
 <template>
   <div class="contact">
-    <h4>Contact :</h4>
+    <h4>Contact </h4>
     <ul>
       <li>Geoffrey Gallot</li>
       <li>19 rue des colporteurs</li>
@@ -22,7 +22,7 @@ export default {
 .contact {
   display: flex;
   flex-direction: column;
-  width: 250px;
+  max-width: 250px;
 }
 .contact ul {
   list-style: none;
@@ -30,5 +30,10 @@ export default {
 }
 .contact ul li{
     margin-top: 10px;
+}
+@media screen and (max-width: 1000px){
+  .contact ul {
+    white-space: normal;
+  }
 }
 </style>

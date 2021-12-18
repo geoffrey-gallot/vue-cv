@@ -132,4 +132,25 @@ export default {
   list-style: none;
   width: 450px;
 }
+@media screen and (max-width: 1000px){
+  .formation{
+    width: 100%;
+  }
+  .main-section{
+    flex-direction: column;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .skill-list{
+    flex-direction: column;
+  }
+  .skill-list ul{
+    width: auto !important;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .content p {
+    white-space: wrap;
+  }
+}
 </style>

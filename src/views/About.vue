@@ -19,13 +19,6 @@
         </article>
         <article class="annexe">
           <div class="contact">
-            <!-- <h4>Contact</h4>
-            <ul>
-              <li>Geoffrey Gallot</li>
-              <li>19 rue des colporteurs</li>
-              <li>Villebreton</li>
-              <li>16110 la Rochette</li>
-            </ul> -->
             <Coord />
           </div>
           <div class="cvdl">
@@ -57,6 +50,7 @@ export default {
 .about {
   position: absolute;
   height: 100vh;
+  /* height: 110%; */
   width: 100%;
   background-color: #2b2b2b;
   display: flex;
@@ -83,6 +77,7 @@ export default {
   display: flex;
   flex-direction: row;
   margin-top: 25px;
+  margin-right: 20px !important;
 }
 .about-me {
   margin-right: 300px;
@@ -90,5 +85,33 @@ export default {
 }
 .cvdl {
   margin-left: 200px;
+}
+@media screen and (max-width: 1000px){
+  .about{
+    height: auto;
+  }
+  .main-content{
+    position: relative;
+    flex-direction: column;
+  }
+  .right-content{
+    flex-direction: column;
+    height: 100%;
+  }
+  .about-me{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .annexe{
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .left-content img {
+    margin-left: 20px;
+    margin-right: auto;
+  }
+  .cvdl{
+    margin-left: 32.5%;
+  }
 }
 </style>

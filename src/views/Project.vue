@@ -93,4 +93,12 @@ export default {
   border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.5);
 }
+@media screen and (max-width: 1000px){
+  .project{
+    flex-direction: column;
+  }
+  .projectPro , .projectPerso{
+    flex-direction: column !important;
+  }
+}
 </style>

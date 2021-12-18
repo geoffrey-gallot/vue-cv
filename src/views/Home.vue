@@ -110,4 +110,14 @@ export default {
 .fa-instagram {
   color: #f46f30;
 }
+@media screen and (max-width: 820px){
+  .socialNetwork{
+    position: absolute;
+    top: 60%;
+  }
+  .socialNetwork-list{
+    display: flex;
+    flex-direction: column;
+  }
+}
 </style>
