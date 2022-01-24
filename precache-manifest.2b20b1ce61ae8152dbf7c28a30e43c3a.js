@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d632154e1fe00e195f61",
-    "url": "/vue-cv/css/about.6153c549.css"
+    "revision": "3d0da184b331d9e36f3b",
+    "url": "/vue-cv/css/about.0060c899.css"
   },
   {
-    "revision": "1a15b59b836b31d23011",
+    "revision": "ad74597e0ff0783dcefe",
     "url": "/vue-cv/css/app.74cca8e3.css"
   },
   {
@@ -64,16 +64,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-cv/img/resourses/photoSitearduino.png"
   },
   {
-    "revision": "8cafb7af278b554722a56043f97b0df7",
+    "revision": "2adc3b769876c124da3abe3facea88e3",
     "url": "/vue-cv/index.html"
   },
   {
-    "revision": "d632154e1fe00e195f61",
-    "url": "/vue-cv/js/about.4cef616d.js"
+    "revision": "3d0da184b331d9e36f3b",
+    "url": "/vue-cv/js/about.bb94f4f0.js"
   },
   {
-    "revision": "1a15b59b836b31d23011",
-    "url": "/vue-cv/js/app.27ce4f9a.js"
+    "revision": "ad74597e0ff0783dcefe",
+    "url": "/vue-cv/js/app.49b62e13.js"
   },
   {
     "revision": "e790f1581d655d58e28c",
