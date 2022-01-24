@@ -24,7 +24,7 @@
           <div class="cvdl">
             <a
               class="btn btn-secondary"
-              href="../../public/img/resourses/CVGallotGeoffrey.pdf"
+              href="/dist/img/resourses/CVGallotGeoffrey.pdf"
               target="_blank"
               download
               >Télécharger mon Cv
